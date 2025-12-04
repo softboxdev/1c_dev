@@ -63,7 +63,7 @@ hotfix/срочное-исправление (исправления в producti
 
 ---
 
-## 2. **EDT (Eclipse-based Development Tools)**
+## 2. **EDT (Enterprise-based Development Tools)**
 
 ### **Преимущества перед конфигуратором:**
 
