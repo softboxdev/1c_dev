@@ -70,7 +70,7 @@ graph TB
     ПараметрыСоединения.Вставить("Пароль", "guest");
     
     // Использование HTTP-запроса для отправки через REST API RabbitMQ
-    Запрос = Новый HTTPЗапрос("http://localhost:15672/api/queues/%2F/" + Очередь + "/publish");
+    Запрос = Новый HTTPЗапрос("http://localhost:5672/api/queues/%2F/" + Очередь + "/publish");
     Запрос.Заголовки.Вставить("Content-Type", "application/json");
     Запрос.Заголовки.Вставить("Authorization", "Basic " + Base64Строка("guest:guest"));
     
